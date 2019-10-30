@@ -1,7 +1,7 @@
 
 In this repository, there are two notebooks the intent behind which is described below.
 
-# Text_Classification_Embedding_Keras.ipynb
+# Text_Classification_Embeddings_Keras.ipynb
 Keras has great functionality for text preprocessing. In this notebook, I have demonstrated the use of keras to preprocess text, create embeddings and build an MLP for classification. The data is reviews of miscellaneous products from amazon. A positive review is labelled 1 and a negative review is labelled 0. There are 1000 reviews containing 500 positive and 500 negative reviews each. `Embedding` layer in keras provides functionality to create word vector embedding with respect to the task at hand and train it for the same. It also allows us to specify the weights of the embedding layer using the `model_weights` parameter (which is shown in the next notebook). 
 
 I used [this blog](https://machinelearningmastery.com/use-word-embedding-layers-deep-learning-keras/) as a reference to build this notebook which gives a step by step description of using keras to create embedding layers and perform a text classification task using only 10 small sentences as documents. It is simple but powerful!
